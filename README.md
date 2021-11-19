@@ -2,6 +2,7 @@
 ```
 $:~/hello-latex$ ls
 Makefile	README.md	hello.tex
+
 $:~/hello-latex$ make
 docker run --rm  -v `pwd`:/hostvolume/: --workdir /hostvolume/  riteshja88/ritesh-latex-ubuntu-18.04 pdflatex hello.tex
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex)
@@ -40,6 +41,7 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on hello.pdf (1 page, 30987 bytes).
 Transcript written on hello.log.
 open hello.pdf
+
 $:~/hello-latex$ ls
 Makefile	README.md	hello.aux	hello.log	hello.out	hello.pdf	hello.tex
 ```
